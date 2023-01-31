@@ -13,6 +13,9 @@ class HomeController extends Controller
             $role = Auth::user()->roles->pluck('name')->join('');
             $user = auth()->user();
             switch ($role) {
+                case 'Super Admin':
+                    return redirect()->route('admin.index');
+                    break;
                 case 'admin':
                     return redirect()->route('admin.index');
                     break;

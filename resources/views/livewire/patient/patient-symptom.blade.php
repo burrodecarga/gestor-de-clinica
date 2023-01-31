@@ -37,7 +37,6 @@
                                     <br>
                                     <p>{{ __('to list ...?') }}</p>
                                 </button>
-
                             </div>
                         @endif
                     @endforelse

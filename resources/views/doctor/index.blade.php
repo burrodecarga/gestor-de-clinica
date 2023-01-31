@@ -6,10 +6,10 @@
                    @livewire('patient.patient-list')
             </div>
             <div>
-                @livewire('appoinment.appoinment-list')
+                {{-- @livewire('appoinment.appoinment-list') --}}
          </div>
          <div>
-            @livewire('schedulle.schedulle')
+            {{-- @livewire('schedulle.schedulle') --}}
         </div>
         </div>
 

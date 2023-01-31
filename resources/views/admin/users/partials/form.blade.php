@@ -48,7 +48,7 @@
                 {{ $role->name }}</option>
             @endforeach
         </select>
-        </div>
+    </div>
 
 
     <div class="mb-1 col-span-5">

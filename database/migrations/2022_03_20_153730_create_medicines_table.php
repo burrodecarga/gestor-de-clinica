@@ -17,6 +17,11 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('slug')->unique();
+$table->string('active');
+$table->string('presentation');
+$table->string('via');
+$table->string('company');
+
             $table->timestamps();
         });
     }
