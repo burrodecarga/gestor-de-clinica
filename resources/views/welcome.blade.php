@@ -40,7 +40,7 @@
 
                             <a href="{{ route('register') }}"
                                 class="text-white px-4 py-2 bg-blue-900 hover:bg-green-600 flex items-center justify-center border text-base font-medium rounded-md shadow-sm sm:px-8 focus:ring focus:ring-offset-1">{{ __('register') }}</a>
-@endauth
+                            @endauth
 
                         </div>
                     </div>
